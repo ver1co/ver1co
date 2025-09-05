@@ -13,7 +13,7 @@ echo "127.0.1.1 arch.localdomain arch" >> /etc/hosts
 echo root:password | chpasswd
 
 pacman -Syu
-pacman -S base linux linux-firmware sudo base-devel grub efibootmgr sddm linux-headers linux-api-headers linux-firmware-nvidia
+pacman -S sudo base-devel grub efibootmgr sddm linux-headers linux-api-headers linux-firmware-nvidia
 pacman -S alacritty nano nano-syntax-highlighting vlc wofi noto-fonts swaync dolphin nmap ffmpeg man-db man-pages bash bash-completion amd-ucode reflector
 pacman -S networkmanager firewalld flatpak dialog openssh openssl iwd wireplumber pipewire pipewire-alsa pipewire-audio pipewire-jack pipewire-pulse
 pacman -S --noconfirm nvidia nvidia-utils nvidia-settings 
